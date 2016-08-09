@@ -1,0 +1,55 @@
+Developing Data Products - Course Project
+========================================================
+author: John Cleveland
+date: 08/09/2016
+transition: rotate
+autosize: true
+
+Stochastic Exploratory Data Analysis
+========================================================
+type:section
+This presentation is being created as part of the peer assessment for the coursera developing data products class. This course is designed to teach  
+
+- shiny to build data product application
+- R- presentation or slidify to create data product related presentation
+
+For more details on authoring R presentations please visit <https://support.rstudio.com/hc/en-us/articles/200486468>.
+
+The Application
+========================================================
+#type:section
+
+A simple application called Stochastic Exploratory Data Analysis has been developed and deployed at: https://yxs8495.shinyapps.io/StochasticExploratoryDataAnalysis/
+
+The application allows the user to:
+
+- Select from three different R- datasets along with an integer representing the number of observations to view
+
+- It then automates basic exploratory data analysis by displaying the number of observations chosen.
+
+- It also utilizes a movable control panel that displays summary information and allows for the control of stochastic plots.
+
+
+
+Examples of Stochasticity
+========================================================
+type:prompt
+
+
+```{r eval}
+cars2 <- cars + rnorm(length(cars)); head(cars2); 
+```
+
+
+
+Screen Shot
+========================================================
+type:prompt
+
+![alt text](myimage.png)
+
+***
+
+The source code be obtained at the following repository :
+
+https://github.com/johncleveland/Developing-data-Products
